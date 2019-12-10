@@ -4,6 +4,16 @@
 new Vue({
   el: "#element_id",
   delimiters: ['${', '}'],
-  data: {}
+  data: {
+    name : "Vuejs"
+  }
   });
+```
+
+```html
+
+<div class="item">
+  <span>${ name }</span>
+</div>
+
 ```
